@@ -162,13 +162,15 @@ h3 {
 }
 
 .zyp {
-    margin-right: 30px;
-    margin-left: 5px;
+    position: absolute;
+    top: 100%;
+    right: 37.5%;
 }
 
 .sy {
-    margin-right: 65px;
-    margin-left: 15px;
+    position: absolute;
+    top: 100%;
+    left: 30%;
 }
 
 
@@ -281,4 +283,10 @@ h3 {
 
 .app h3 {
     margin-left: 0;
+}
+
+.managers {
+    display: flex;
+    position: relative;
+    font-weight: bold;
 }
