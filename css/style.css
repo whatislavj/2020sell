@@ -116,6 +116,14 @@ h3 {
     margin-left: 70px;
 }
 
+.buy4 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .iwin {
     margin-left: 100px;
     font-family: r;
@@ -265,9 +273,12 @@ h3 {
     align-items: center;
     flex-direction: column;
     width: 250px;
-    margin-left : 100px; 
 }
-.app img {
+.app h3 + img {
     width: 250px;
     height: 250px;
+}
+
+.app h3 {
+    margin-left: 0;
 }
